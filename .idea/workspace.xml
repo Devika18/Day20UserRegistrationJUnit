@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec792a8-a9e8-450a-8f10-a043b482aa7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/service/UserRegistrationUC4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/service/service/UC4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/service/UserRegistrationUC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/service/service/UC5Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <recent name="com.service.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UC4Test">
+  <component name="RunManager" selected="JUnit.UC5Test">
     <configuration name="UC4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_UserRegistration" />
       <extension name="coverage">
@@ -71,22 +71,6 @@
       <option name="PACKAGE_NAME" value="com.service.service" />
       <option name="MAIN_CLASS_NAME" value="com.service.service.UC4Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UC4Test.givenMobileNumber_LessThanTenNumbers_ShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit_UserRegistration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.service.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.service.service" />
-      <option name="MAIN_CLASS_NAME" value="com.service.service.UC4Test" />
-      <option name="METHOD_NAME" value="givenMobileNumber_LessThanTenNumbers_ShouldReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UC4Test.givenMobileNumber_WhenProper_WithCountryCode_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UC5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +116,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.service.service" />
-      <option name="MAIN_CLASS_NAME" value="com.service.service.UC4Test" />
-      <option name="METHOD_NAME" value="givenMobileNumber_WhenProper_WithCountryCode_ShouldReturnTrue" />
+      <option name="MAIN_CLASS_NAME" value="com.service.service.UC5Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UC5Test.givenPassword_WhenProper_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit_UserRegistration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.service.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.service.service" />
+      <option name="MAIN_CLASS_NAME" value="com.service.service.UC5Test" />
+      <option name="METHOD_NAME" value="givenPassword_WhenProper_ShouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UC5Test" />
+        <item itemvalue="JUnit.UC5Test.givenPassword_WhenProper_ShouldReturnTrue" />
         <item itemvalue="JUnit.UC4Test" />
         <item itemvalue="JUnit.UC4Test.givenMobileNumber_WhenIncludeSpecialCharacter_ShouldReturnFalse" />
         <item itemvalue="JUnit.UC4Test.givenMobileNumber_MoreThanTenNumbers_ShouldReturnFalse" />
-        <item itemvalue="JUnit.UC4Test.givenMobileNumber_WhenProper_WithCountryCode_ShouldReturnTrue" />
-        <item itemvalue="JUnit.UC4Test.givenMobileNumber_LessThanTenNumbers_ShouldReturnFalse" />
       </list>
     </recent_temporary>
   </component>
