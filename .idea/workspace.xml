@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec792a8-a9e8-450a-8f10-a043b482aa7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/service/UserRegistrationUC9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/service/service/UC9Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/service/service/UC8Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/service/service/UC8Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +60,8 @@
       <recent name="com.service.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UC7Test">
-    <configuration name="UC5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UC8Test">
+    <configuration name="UC8Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -67,13 +70,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.service.service" />
-      <option name="MAIN_CLASS_NAME" value="com.service.service.UC5Test" />
+      <option name="MAIN_CLASS_NAME" value="com.service.service.UC8Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UC6Test.givenPassword_withAtleasteOneUpperCase_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UC8Test.givenPassword_WithoutSpecialCharacter_ShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +85,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.service.service" />
-      <option name="MAIN_CLASS_NAME" value="com.service.service.UC6Test" />
-      <option name="METHOD_NAME" value="givenPassword_withAtleasteOneUpperCase_ShouldReturnTrue" />
+      <option name="MAIN_CLASS_NAME" value="com.service.service.UC8Test" />
+      <option name="METHOD_NAME" value="givenPassword_WithoutSpecialCharacter_ShouldReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UC7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UC9Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +101,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.service.service" />
-      <option name="MAIN_CLASS_NAME" value="com.service.service.UC7Test" />
+      <option name="MAIN_CLASS_NAME" value="com.service.service.UC9Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UC7Test.givenPassword_WhenContainedAtleast1Number_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UC9Test.givenPassword_WhenNotProperFormat_ShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +116,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.service.service" />
-      <option name="MAIN_CLASS_NAME" value="com.service.service.UC7Test" />
-      <option name="METHOD_NAME" value="givenPassword_WhenContainedAtleast1Number_ShouldReturnTrue" />
+      <option name="MAIN_CLASS_NAME" value="com.service.service.UC9Test" />
+      <option name="METHOD_NAME" value="givenPassword_WhenNotProperFormat_ShouldReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UC7Test.givenPassword_WithoutNumber_ShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UC9Test.givenPassword_WhenProperFormat_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit_UserRegistration" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +132,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.service.service" />
-      <option name="MAIN_CLASS_NAME" value="com.service.service.UC7Test" />
-      <option name="METHOD_NAME" value="givenPassword_WithoutNumber_ShouldReturnFalse" />
+      <option name="MAIN_CLASS_NAME" value="com.service.service.UC9Test" />
+      <option name="METHOD_NAME" value="givenPassword_WhenProperFormat_ShouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UC7Test" />
-        <item itemvalue="JUnit.UC7Test.givenPassword_WhenContainedAtleast1Number_ShouldReturnTrue" />
-        <item itemvalue="JUnit.UC7Test.givenPassword_WithoutNumber_ShouldReturnFalse" />
-        <item itemvalue="JUnit.UC6Test.givenPassword_withAtleasteOneUpperCase_ShouldReturnTrue" />
-        <item itemvalue="JUnit.UC5Test" />
+        <item itemvalue="JUnit.UC8Test" />
+        <item itemvalue="JUnit.UC8Test.givenPassword_WithoutSpecialCharacter_ShouldReturnFalse" />
+        <item itemvalue="JUnit.UC9Test" />
+        <item itemvalue="JUnit.UC9Test.givenPassword_WhenProperFormat_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UC9Test.givenPassword_WhenNotProperFormat_ShouldReturnFalse" />
       </list>
     </recent_temporary>
   </component>
