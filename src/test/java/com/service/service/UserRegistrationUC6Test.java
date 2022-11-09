@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class UC6Test {
+public class UserRegistrationUC6Test {
     private UserRegistrationUC6 userRegistrationUC6;
 
     @Before

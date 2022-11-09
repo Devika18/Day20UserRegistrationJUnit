@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class UC1Test {
+public class UserRegistrationUC1Test {
     private UserRegistrationUC1 userRegistrationUC1;
     @Before
     public void setUp() throws Exception {
